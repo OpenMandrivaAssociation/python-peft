@@ -1,6 +1,6 @@
 Name:		python-peft
 Version:	0.20.0
-Release:	1
+Release:	2
 Summary:	Parameter-Efficient Fine-Tuning of large language models
 License:	Apache-2.0
 Group:		Development/Python
@@ -9,8 +9,9 @@ Source0:	https://files.pythonhosted.org/packages/source/p/peft/peft-%{version}.t
 BuildArch:	noarch
 BuildSystem:	python
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(wheel)
 BuildRequires:	python%{pyver}dist(setuptools)
 
 %description
