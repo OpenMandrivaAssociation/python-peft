@@ -1,6 +1,6 @@
 Name:		python-peft
-Version:	0.20.0
-Release:	2
+Version:	0.21.2
+Release:	1
 Summary:	Parameter-Efficient Fine-Tuning of large language models
 License:	Apache-2.0
 Group:		Development/Python
